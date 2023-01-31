@@ -1,0 +1,323 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: #EAE0DA;
+}
+
+#cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #EAC7C7;
+
+}
+
+#logo {
+    width: 130px;
+    padding: 40px;
+}
+
+#cabecalho h1 {
+    color: #044764;
+    padding: 40px;
+    font-family: 'Zen Loop', cursive;
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+#divMenuBurguer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #A0C3D2;
+    padding-left: 88px;
+    padding-right: 25px;
+}
+
+#menuburguer {
+    color: #2a7899;
+    text-align:start;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#menuburguer:hover {
+    background-color:#A0C3D2;
+    color:#EAE0DA !important;
+}
+
+#listamenu {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 20%;
+    position:absolute;
+    padding: 5px;
+    text-align: center;
+    list-style: none;
+    padding: 4px;
+    background-color: none;
+}
+.liMenu {
+    margin: 3px;
+    background-color: #A0C3D2;
+    cursor: pointer;  
+    color:#2a7899;
+    font-family: 'Aboreto', cursive;
+    font-weight: bolder;
+}
+
+.itemmenu {
+    color:inherit;
+    text-decoration: none;
+    font-family: 'Aboreto', cursive;
+    font-weight: bolder;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: block;
+    padding: 10px 15px 10px 15px;
+}
+
+.liMenu:hover {
+    color:#EAE0DA;
+}
+
+section {
+    padding: 10px;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    
+}
+
+.chamada {
+    width: 90%;
+    color: #2a7899;
+    font-family: 'Zen Loop', cursive;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 20px;
+}
+
+#chamada2 {
+    font-size: 35px;
+}
+
+.novidades, .profissionais {
+    width: 500px;
+    padding: 10px;
+    font-family: 'Zen Loop', cursive;
+    font-weight: bolder;
+    font-size: 25px;
+    color:#044764;
+    text-align: center;
+    margin: 20px;
+}
+
+
+.novidades p, .profissionais p {
+    padding: 10px;
+} 
+
+.novidades hr, .profissionais hr {
+    border: 1px solid #04476440;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.lista {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    padding-left: 0px;
+}
+
+.listali {
+    list-style: none;
+    align-self: center;
+    font-family: 'Zen Loop', cursive;
+    font-weight: bolder;
+    font-size: 25px;
+    color:#044764;
+    text-align: center;
+    margin: 20px;
+}
+
+
+#formulario {
+    width: 500px;
+}
+
+#campos {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Zen Loop', cursive;
+    font-weight: bolder;
+    font-size: 25px;
+    color:#044764;
+    text-align: left;
+    margin: 20px;
+}
+
+.inputform{
+    width: 100%;
+    height: 30px;
+    font-size: 22px;
+    font-family: 'Zen Loop', cursive;
+    padding:0 15px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #2a7899;
+    color: #2a7899;
+}
+
+.inputform:focus{
+    outline: none;
+    border-bottom: 2px solid #044764;
+    box-shadow: 1px #044764;
+}
+.inputform:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px #EAE0DA inset;
+}
+
+fieldset {
+    display: flex;
+    justify-content: space-around;
+    text-align: start;
+    height: 150px;
+    border: none;
+    border-top: 1px solid #044764;
+    border-bottom: 1px solid #044764;
+}
+
+#mensagem {
+    height: 100px;
+    border: 1px solid #044764;
+}
+#mensagem:focus{
+    outline: none;
+    border: 2px solid #044764;
+    box-shadow: 1px #044764;
+}
+
+
+.checkbox{
+    all: unset;
+    border: 1px solid black;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.checkbox:hover {
+    background-color: #2a7899a9;
+}
+
+.checkbox:checked{
+    background-color: #044764;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+}
+
+#botaoEnviar {
+    align-self: center;
+    background-color: #A0C3D2;
+    color:#2a7899;
+    width: 40%;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#botaoEnviar:hover {
+    color:#EAE0DA;
+    background-color: #044764;
+}
+
+
+footer {
+    background-color:#F7F5EB;
+    font-family: 'Zen Loop', cursive;
+    font-size: 20px;
+}
+
+i {
+    color: #044764;
+    font-size: 25px;
+}
+
+i:hover {
+    color: #A0C3D2;
+}
+
+#enderecos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+#enderecos h4 {
+    text-align: center;
+}
+#enderecos p {
+    margin: 8px;
+}
+
+#copy {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    max-width: 100%;
+}
+
+@media only screen and (max-width:759px) {
+    #logo {
+        width: 70px;
+        padding: 20px;
+    }
+    #cabecalho h1 {
+        padding: 15px;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    #listamenu {
+        width: 35%;
+    }
+
+    #divMenuBurguer {
+        padding-left: 39px;
+        padding-right: 10px;
+    }
+
+    .itemmenu {
+        font-size: 13px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .lista {
+        flex-direction: column;
+    }
+
+    #formulario {
+        width: 90%;
+        display: contents;
+    }
+    .inputform{
+        width: 90%;
+    }
+
+}
