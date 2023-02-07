@@ -89,7 +89,6 @@ section {
     display: flex;
     justify-content:space-around;
     flex-wrap: wrap;
-    
 }
 
 .chamada {
@@ -117,9 +116,18 @@ section {
     margin: 20px;
 }
 
+.novidades, .profissionais {
+    background-color: #f3f3f3;
+}
+
+.novidades:hover, .profissionais:hover {
+    box-shadow: 10px 10px 5px rgb(202, 199, 199);
+}
 
 .novidades p, .profissionais p {
     padding: 10px;
+    text-align: center;
+    
 } 
 
 .novidades hr, .profissionais hr {
@@ -127,6 +135,62 @@ section {
     margin-top: 10px;
     margin-bottom: 10px;
 
+}
+
+.scrollItens {
+    width: 100%;
+
+    display: -webkit-inline-box;
+    overflow: auto;
+}
+
+.scrollItens::-webkit-scrollbar {
+    width: 12px;               
+    border-radius: 10px;
+}
+  
+.scrollItens::-webkit-scrollbar-track {
+    background: rgb(238, 234, 234);        
+}
+  
+.scrollItens::-webkit-scrollbar-thumb {
+    background-color: rgb(211, 202, 202);   
+    border-radius: 10px;       
+}
+
+section i {
+    font-size: 100px;
+    color: rgb(211, 202, 202);
+    text-shadow:  0 0 0.1em rgb(81, 75, 75), 0 0 0.1em rgb(195, 193, 206),
+    0 0 0.2em rgb(91, 91, 94);
+}
+
+section i:hover {
+    color: rgb(238, 234, 234);
+}
+
+.cover {
+    width: 90%;
+    padding: 30px 0px;
+    position: relative;
+}
+
+.direita {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+}
+
+.esquerda {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
 }
 
 .lista {
@@ -311,7 +375,14 @@ i:hover {
     .lista {
         flex-direction: column;
     }
-
+    .novidades, .profissionais {
+        width: 270px;
+        font-size: 19px;
+    }
+    section i {
+        font-size: 60px;
+    }
+    
     #formulario {
         width: 90%;
         display: contents;

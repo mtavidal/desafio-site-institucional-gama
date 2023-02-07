@@ -8,3 +8,13 @@ function clickMenu() {
     }
     
 }
+
+function scrollEsq(elementos) {
+    const left = document.querySelector("." + elementos);
+    left.scrollBy(-100, 0);
+}
+
+function scrollDir(elementos) {
+    const right = document.querySelector("." + elementos);
+    right.scrollBy(100, 0);
+}

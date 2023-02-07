@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Balsamiq+Sans:wght@400;700&family=Overlock+SC&family=Zen+Loop&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script type="text/javascript" src="/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>.: Instituto da Mulher - Serviços :.</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
@@ -45,47 +46,41 @@
     <section>
         <h2 class="chamada">Conheça os nossos profissionais</h2>
         <p class="chamada" id="chamada2">A nossa equipe conta com profissionais renomados e capacitados, são eles: </p>
-        <div class="profissionais">
-            <hr>
-            <h3>Dr. Moretti</h3>
-            <img width="50%" src="/imagens/drMorettii.png" alt="medico">
-            <p>Médico </br> Especialista em Ginecologia e Obstetrícia</br> Mestre e Doutor em Ginecologia - Havard </br>Professor da Universidade Federal da Bahia </p>
-            <hr>
-        </div>
-        <div class="profissionais">
-            <hr>
-            <h3>Dra. Maria Pfzer</h3>
-            <img width="50%" src="/imagens/draMaria.png" alt="medica">
-            <p>Médica </br> Especialista em Ultrassom e Mastologia </br> Mestre e Doutora em Ultrasom - Havard </br>Professor da Universidade Federal da Bahia </p>
-            <hr>
-        </div>
-        <div class="profissionais">
-            <hr>
-            <h3>Dra. Joana Mascarenhas</h3>
-            <img width="50%" src="/imagens/draJoana.png" alt="psicologa">
-            <p>Psicóloga </br> Especialista em Saúde da Mulher</br> Mestre e Doutora em Psicologia - Havard </p>
-            <hr>
-        </div>
-        <div class="profissionais">
-            <hr>
-            <h3>Dr. Jorge Felix</h3>
-            <img width="50%" src="/imagens/drJorge.png" alt="terapeuta">
-            <p>Terapeuta Ocupacional </br> Especialista em Saúde da Mulher </br>Professor da Universidade Federal da Bahia </p>
-            <hr>
-        </div>
-        <div class="profissionais">
-            <hr>
-            <h3>Dra. Júlia Faria</h3>
-            <img width="50%" src="/imagens/draJulia.png" alt="medica">
-            <p>Médica </br> Especialista em Dermatologia</br> Mestre e Doutora em Estética - Havard</p>
-            <hr>
-        </div>
-        <div class="profissionais">
-            <hr>
-            <h3>Dra. Luisa Marques</h3>
-            <img width="50%" src="/imagens/draluisa.png" alt="medica">
-            <p>Médica </br> Especialista em Dermatologia</br> Mestre e Doutora em Estética - Havard</p>
-            <hr>
+        <div class="cover">    
+            <button class="esquerda" onclick="scrollEsq('scrollItens')"><i class="fa-solid fa-chevron-left"></i></button>
+            <div class="scrollItens">
+                <div class="profissionais">
+                    <h3>Dr. Moretti</h3>
+                    <img width="50%" src="/imagens/drMorettii.png" alt="medico">
+                    <p>Médico </br> Especialista em Ginecologia e Obstetrícia</br> Mestre e Doutor em Ginecologia - Havard </br>Professor da Universidade Federal da Bahia </p>
+                </div>
+                <div class="profissionais">
+                    <h3>Dra. Maria Pfzer</h3>
+                    <img width="50%" src="/imagens/draMaria.png" alt="medica">
+                    <p>Médica </br> Especialista em Ultrassom e Mastologia </br> Mestre e Doutora em Ultrasom - Havard </br>Professor da Universidade Federal da Bahia </p>
+                </div>
+                <div class="profissionais">
+                    <h3>Dra. Joana Mascarenhas</h3>
+                    <img width="50%" src="/imagens/draJoana.png" alt="psicologa">
+                    <p>Psicóloga </br> Especialista em Saúde da Mulher</br> Mestre e Doutora em Psicologia - Havard </p>
+                </div>
+                <div class="profissionais">
+                    <h3>Dr. Jorge Felix</h3>
+                    <img width="50%" src="/imagens/drJorge.png" alt="terapeuta">
+                    <p>Terapeuta Ocupacional </br> Especialista em Saúde da Mulher </br>Professor da Universidade Federal da Bahia </p>
+                </div>
+                <div class="profissionais">
+                    <h3>Dra. Júlia Faria</h3>
+                    <img width="50%" src="/imagens/draJulia.png" alt="medica">
+                    <p>Médica </br> Especialista em Dermatologia</br> Mestre e Doutora em Estética - Havard</p>
+                </div>
+                <div class="profissionais">
+                    <h3>Dra. Luisa Marques</h3>
+                    <img width="50%" src="/imagens/draluisa.png" alt="medica">
+                    <p>Médica </br> Especialista em Dermatologia</br> Mestre e Doutora em Estética - Havard</p>
+                </div>
+            </div>
+            <button class="direita" onclick="scrollDir('scrollItens')"><i class="fa-solid fa-chevron-right"></i></button>
         </div>
     </section>
 
