@@ -185,6 +185,7 @@ section i:hover {
 }
 
 .esquerda {
+    visibility: hidden;
     position: absolute;
     left: 0;
     top: 50%;
