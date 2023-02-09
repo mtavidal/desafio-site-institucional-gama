@@ -106,7 +106,7 @@ section {
 }
 
 .novidades, .profissionais {
-    width: 500px;
+    width: 27%;
     padding: 10px;
     font-family: 'Zen Loop', cursive;
     font-weight: bolder;
@@ -130,16 +130,8 @@ section {
     
 } 
 
-.novidades hr, .profissionais hr {
-    border: 1px solid #04476440;
-    margin-top: 10px;
-    margin-bottom: 10px;
-
-}
-
 .scrollItens {
     width: 100%;
-
     display: -webkit-inline-box;
     overflow: auto;
 }
@@ -160,13 +152,13 @@ section {
 
 section i {
     font-size: 100px;
-    color: rgb(211, 202, 202);
+    color:  #2a7899;;
     text-shadow:  0 0 0.1em rgb(81, 75, 75), 0 0 0.1em rgb(195, 193, 206),
     0 0 0.2em rgb(91, 91, 94);
 }
 
 section i:hover {
-    color: rgb(238, 234, 234);
+    color:#044764;
 }
 
 .cover {
@@ -348,7 +340,7 @@ i:hover {
     max-width: 100%;
 }
 
-@media only screen and (max-width:759px) {
+@media only screen and (max-width:820px) {
     #logo {
         width: 70px;
         padding: 20px;
